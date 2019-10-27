@@ -14,7 +14,7 @@ export interface Recipe {
 }
 
 export interface RecipesState {
-  recipes: Recipe[]; // todo: normalize state :@
+  recipes: Recipe[]; // todo: normalize state
 }
 
 const initialState: RecipesState = {
